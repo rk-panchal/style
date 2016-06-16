@@ -1,0 +1,757 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+  font-family: "Dosis-Bold";
+  src: url("../fonts/Dosis-Bold.otf");
+  /*src: url("../fonts/Dosis-Bold.ttf") format("truetype"), url("../fonts/Dosis-Bold.woff") format("woff"), url("../fonts/Dosis-Bold.woff") format("woff"), url("../fonts/Dosis-Bold.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Dosis-ExtraBold";
+  src: url("../fonts/Dosis-ExtraBold.otf");
+  /*src: url("../fonts/Dosis-ExtraBold.ttf") format("truetype"), url("../fonts/Dosis-ExtraBold.woff") format("woff"), url("../fonts/Dosis-ExtraBold.woff") format("woff"), url("../fonts/Dosis-ExtraBold.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Dosis-ExtraLight";
+  src: url("../fonts/Dosis-ExtraLight.otf");
+  /*src: url("../fonts/Dosis-ExtraLight.ttf") format("truetype"), url("../fonts/Dosis-ExtraLight.woff") format("woff"), url("../fonts/Dosis-ExtraLight.woff") format("woff"), url("../fonts/Dosis-ExtraLight.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Dosis-Light";
+  src: url("../fonts/Dosis-Light.otf");
+  /*src: url("../fonts/Dosis-Light.ttf") format("truetype"), url("../fonts/Dosis-Light.woff") format("woff"), url("../fonts/Dosis-Light.woff") format("woff"), url("../fonts/Dosis-Light.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Dosis-Medium";
+  src: url("../fonts/Dosis-Medium.otf");
+  /*src: url("../fonts/Dosis-Medium.ttf") format("truetype"), url("../fonts/Dosis-Medium.woff") format("woff"), url("../fonts/Dosis-Medium.woff") format("woff"), url("../fonts/Dosis-Medium.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Dosis-Regular";
+  src: url("../fonts/Dosis-Regular.otf");
+  /*src: url("../fonts/Dosis-Regular.ttf") format("truetype"), url("../fonts/Dosis-Regular.woff") format("woff"), url("../fonts/Dosis-Regular.woff") format("woff"), url("../fonts/Dosis-Regular.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Dosis-SemiBold";
+  src: url("../fonts/Dosis-SemiBold.otf");
+  /*src: url("../fonts/Dosis-SemiBold.ttf") format("truetype"), url("../fonts/Dosis-SemiBold.woff") format("woff"), url("../fonts/Dosis-SemiBold.woff") format("woff"), url("../fonts/Dosis-SemiBold.svg") format("svg");*/
+  font-weight: normal;
+  font-style: normal; }
+
+.view-container.tab-content{
+  background-color: #f1f1f1 !important;
+}
+.tab-item{
+  width: 50%;
+  max-width: 100%;
+}
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated{
+  color: #ffffff;
+}
+ion-tabs.tabs-color-active-positive .tab-item{
+  color: #ffffff;
+}
+.tabs-top.tabs-striped .tab-item{
+  background-color: #03C9A9;
+}
+.tab-item
+{
+  font-size: 35px;
+  font-family: "Dosis-Regular";
+  opacity: 0.8;
+}
+.tabs-top.tabs-striped .tab-item.tab-item-active, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated{
+  margin-top:0px;
+  border-width: 0px 0px 0px 0px !important
+}
+ /*dashboard bar*/
+ /* .title.title-center.header-item{
+    right: 0px !important;
+    width: 100% !important;
+} */
+ }
+ div.dashboardBar{
+
+ }
+.stl-orderSummary{
+  font-size: 20px;
+  font-family: "Dosis-Bold";
+  display:inline-block;
+}
+.stl-orderSummary > span{
+  line-height: 45px
+}
+.stl-orderSummary{
+    content: "";
+    background: url('../img/orders.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 44px 44px;
+    margin-right: 10px;
+    padding-right: 52px;
+}
+.item-no:after {
+    content: "";
+    background: url('../img/items.png');
+    background-size: 45px 42px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 50px;
+}
+.stl-orderSummary, .item-no {
+    float: left;
+    height: 52px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 41px;
+    font-weight: 100;
+  }
+.left-buttons .btn-logo.ion-navicon:before {
+    content: "";
+    background: url('../img/logo.png') no-repeat;
+    width: 90px;
+    height: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-no {
+    border-left: 2px solid #fff;
+    padding-left: 15px;
+}
+
+.itemlist { line-height: 52px;color: #fff;  font-size: 30px; font-weight: 100;}
+/*.itemlist span:first-child { border-left:none; } */
+.item.item-complex { border-color: #191919; background-color: #E4E4E4;}
+.menu{background-color: #E4E4E4;}
+.item-complex .item-content, .item-radio .item-content   { background-color: #E4E4E4; color: #000;}
+.bar-header.bar h1.title{background-color: #B7B7B7;  font-family: "Dosis-Bold"; margin: 0; line-height: 110px;color: #000;  font-size: 30px; font-weight: 100;text-align: left; padding:0  10px;} 
+.stl-newItems:before{
+  content: url('../img/basket.png');
+  float: left;
+  margin-right: 10px;
+}
+.stl-newItems{
+  font-size: 16px;
+  font-family: "Dosis-SemiBold";
+  color: #fe6e6e;
+  float: right;
+  margin-top: 6px;
+}
+
+/*Order blocks*/
+.order-block{
+  /*margin: 10px;*/
+  float:left;
+}
+.order-content{
+  background-color: #fff;
+}
+/*
+.order-content.highlight{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.82), 0 6px 20px 0 rgba(0, 0, 0, 0.82);
+}*/
+
+.order-content-timeout{
+	     background-color:red;
+  color: #fff;
+  font-family: "Dosis-Medium";
+  display: block;
+  line-height: 50px;
+  width:100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*height: 60px;*/
+}
+
+.order-content > ion-item > a.item-content{
+  padding: 0px;
+}
+.order-content-timeout > ion-item > a.item-content{
+  padding: 0px;
+}
+
+.order-bar{
+  background-color:#F7E041;
+  color: #000000;
+  font-family: "Dosis-Medium";
+  display: block;
+  line-height: 50px;
+  width:100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*height: 60px;*/
+
+}
+.order-num{
+  font-size: 17px;
+  display: inline-block;
+}
+.order-time{
+  font-size: 15px;
+  float: right;
+  display: inline-block;
+}
+.order-time:after {
+    /*content: url('../img/order-watch.png');*/
+    position: relative;
+    top: 7px;
+    margin-left: 7px;
+}
+.order-info{
+  margin-top: 10px;
+  color: #474747;
+  font-family: "Dosis-Bold";
+  font-size: 20px;
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: #e8e8e8 solid 1px;
+  line-height: 40px;
+}
+.order-table:before{
+  content: url('../img/order-table.png');
+}
+.order-table{
+  display: inline-block;
+}
+.order-waiter{
+  display: inline-block;
+  float: right;
+}
+.order-waiter:before{
+  content: url('../img/order-Food-Waiter-icon.png');
+}
+
+
+.order-details{
+  color: #474747;
+  font-family: 'Dosis-Regular';
+  font-size: 20px;
+  min-height: 90px;
+}
+.order-details > ul > li{
+  margin: 10px 10px;
+  /*border-bottom: 1px solid #e8e8e8;*/
+}
+.order-action{
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  padding-top : 10px;
+  /*padding-bottom: 10px;*/
+}
+.order-action > button {
+    min-width: 150px;
+    border-radius: 2px;
+    color: #fff;
+}
+.order-action > .button-full > .button {
+    max-width: 49.1%;
+    display: inline-block;
+    color: #FFF;
+    border-radius: 2px;
+    min-height: 38px;
+    line-height: 34px;
+}
+.order-confirm {
+    background-color: #FD6411;
+    border-bottom: 4px solid #C54803;
+}
+.order-after-confirm{
+	    background-color: #FD6411;
+    border-bottom: 4px solid #C54803;
+}
+.order-decline{
+  background-color: #ed1c24;
+    border-bottom: 4px solid #BF151E;
+    float: right;
+}
+.decline-color{
+  color: #ed1c24;
+}
+.order-ready {
+    background-color: #00a651;
+    border-bottom: 4PX SOLID #007539;
+}
+.ready-color{
+  color: #00a651;
+}
+.button.disabled, .button[disabled]{
+  opacity: 0.7;
+}
+.orders{
+	top:110px;
+}
+.order-ready.button{
+  line-height: 34px;
+  min-height: 38px;
+  margin-top: 5px;
+}
+.order-ready.button.icon:before, .button.icon-left:before, .button.icon-right:before {
+    line-height: 34px;
+}
+.custom-nav .bar{
+	height:110px;
+	background: #000;
+	color: #fff;
+	padding:0;
+}
+.custom-nav .bar .orders-detail{ padding: 23px  0;}
+.custom-nav .bar .title{
+  color:#fff;
+margin: 0px;
+}
+.items-icon{
+	display:inline-block;
+}
+.items-icon:before {
+    content: "";
+    float: left;
+    margin-right: 10px;
+    width: 48px;
+    background: url('../img/orders.svg');
+    height: 52px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.custom-nav .bar .title{
+	height:110px;
+}
+.custom-slider .list{
+	margin-top:65px;
+}
+.timer-logo:before {
+    content: "";
+    float: left;
+    margin-right: 10px;
+    width: 32px;
+    background: url('../img/timer.png');
+    height: 52px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 14px;
+}
+.time-1 {
+    background-color: #E6E5E6;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #414241;
+    box-shadow: 0px 3px 5px #aaaaaa;
+    display: inline-block;
+    line-height: 35px;
+    margin-top: 6px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 3px;
+  }
+.orderItemList .list{
+	padding-top: 60px;
+	position: relative;
+}
+.order-content ion-item.item.item-complex{
+  border:0px;
+  margin: 0px;
+}
+    color: #E6E5E6;
+    background-color: #414241;
+
+.order-action .timer {
+    display: none;
+}
+.header-order {
+    line-height: 55px;
+    white-space: normal;
+    float: left;
+    position: relative;
+        top: -52px;
+    padding: 0px 15px;
+    font-size: 36px;
+    font-family: "Dosis-SemiBold";
+}
+.header-order span.header-list {
+    border-right: 2px solid #fff;
+    padding: 0 15px;
+}
+.header-order span.header-list:last-child {
+    border-right: 0px solid #fff;
+    padding: 0px 0px 0px 15px;
+}
+
+.past-order .order-decline {
+    background-color: #ed1c24;
+    border-bottom: 0px;
+}
+.past-order .order-ready {
+    background-color: #00a651;
+    border-bottom: 0px;
+}
+button.active {
+    color: #E6E5E6;
+    background-color: #414241 !important;
+}
+.custom-nav .bar-stable .button.button-clear .ion-ios-arrow-back {
+  color: #fff;
+}
+.custom-nav .button .icon {
+    vertical-align: middle;
+    pointer-events: none;
+}
+.custom-nav span.back-text {
+    color: #fff;
+     line-height: 85px;
+
+}
+.custom-btn{
+  max-height: 110px;
+}
+ion-content.orders.scroll-content.ionic-scroll.has-header {
+    background-color: #eceaeb;
+}
+.header-order marquee:first-child {
+  scrolldelay: 40seconds;
+}
+.no-orders{
+    position: absolute;
+   top: 0%;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   margin-top: 15%;
+
+   /*transform: translate(-50%, -50%);*/
+   /*margin-top: 150px;*/
+}
+.ion-ios-close-outline:before {
+    content: "";
+    font-size: 24px;
+    top: 3px;
+    position: relative;
+}
+
+/*.order-block{
+	min-height:320px;
+}*/
+
+/*@media (min-width: 680px) {
+  .order-action > .button-full > .button{
+    max-width: 49%;
+  }
+  @media (max-width: 567px) {
+
+  }*/
+  .filters {
+    text-align: right;
+    position: relative;
+}
+.filters select {
+    height: 40px;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-family: "Dosis-Regular";
+    background-color: #fff;
+}
+.item-icon-left-from {
+    padding-left: 52px;
+    height: 45px;
+        padding: 1px 1px;
+    width: 163px;
+}
+.item-icon-left-to {
+    padding-left: 52px;
+    height: 45px;
+    position: static;
+    padding: 1px 1px;
+    width: 200px;
+}
+.highlight{
+  box-shadow: 0px 0px 0px 5px #000;
+}
+/*-----------------order-detail CSS------------------*/
+.orderItemList .item-avatar {
+    padding-left: 135px;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;   
+}
+.orderItemList .item-avatar img{
+    max-width: 85px;
+    max-height: 85px;
+}
+.orderItemList h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Dosis-Medium";
+}
+.orderItemList h3 {
+  font-size: 21px;
+  font-family: "Dosis-Regular";
+}
+.orderItemList h3.add-ons{
+  font-size: 21px;
+  font-family: "Dosis-Regular";
+  color: #ED1C24;
+  font-weight: 600;
+}
+.orderItemList h5 {
+  font-size: 16px;
+  font-family: "Dosis-Regular";
+}
+.orderItemList ul li {
+  list-style: disc;
+    margin-left: 15px;
+  }
+  .details ion-header-bar .title{
+    text-align: left;
+  }
+  .details button.order-ready, .details button.order-decline {
+    line-height: 34px;
+    min-height: 40px;
+    color:#fff;
+    margin: 10px 15px;
+    width:20%;
+    }
+    .channel-name{
+      background-color: #ECEAEB;
+      padding: 5px 10px 5px 5px;
+    }
+    .orderItemList .list{
+  padding-top: 60px;
+  position: relative;
+}
+.channel-name h3 {
+  font-size: 21px;
+    font-family: "Dosis-Medium";
+    font-weight: 600;
+    line-height: 28px;
+    margin: 10px 20px;
+    color: #000;
+}
+.details .timer{
+  float: right;
+  display:inline-block;
+}
+.channel-name .time-1 {
+    background-color: #FFFFFF;
+    }
+    .order-detail-header ion-header-bar .title span h1{
+      text-align: left;
+      font-family: "Dosis-Medium";
+      margin: 30px 20px;
+      color: #fff;
+}
+.order-detail-header ion-header-bar .title h1 span.order-time time{
+    float: right;
+      font-family: "Dosis-Medium";
+      
+      color: #fff;
+      font-size: 32px;
+    }
+    .orderItemList h3.quantity{
+      color: #000;
+      font-family: "Dosis-Medium";
+    }
+    .orderItemList h3.quantity span{
+      color: #000;
+      font-family: "Dosis-Regular";
+    }
+    .bar-footer h2 {
+        margin-top: 20px;
+        font-family: "Dosis-Medium";
+      }
+@media (min-width: 800px) and (max-width: 1024px) {
+  .responsive-lg .col-25{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+      }
+      .header-order {
+    line-height: 36px;
+    white-space: normal;
+    float: left;
+    position: relative;
+    padding: 0px 15px;
+    top: -45px;
+    font-size: 26px;
+    font-family: "Dosis-SemiBold";
+  }
+}
+@media (min-width: 1280px) and (max-width: 1600px) {
+.header-order {
+    line-height: 55px;
+    white-space: normal;
+    float: left;
+    position: relative;
+    top: -50px;
+  }
+}
+.button.button-positive{
+	border-color: transparent;
+    background-color: #387ef5;
+    color: #fff;
+    top: -44px;
+    position: absolute;
+	
+	
+}
+@media (min-width: 786px) and (max-width: 800px) {
+  .header-order {
+    line-height: 48px;
+    white-space: normal;
+    float: left;
+    position: relative;
+    padding: 0px 15px;
+    top: -70px;
+    font-size: 34px;
+    font-family: "Dosis-SemiBold";
+  }
+  .stl-orderSummary, .item-no {
+    font-size: 32px;
+  }
+}
+
+.calandar label.item.item-input {
+    width: 120px;
+    display: inline-block;
+    padding: 3px;
+    
+}
+.calandar .input-label {
+    display: inline-block;
+    padding: 3px;
+    font-size: 14px;
+}
+.calandar {
+    float: left;
+    position: relative;
+    top: 4px;
+    right: 4px;
+}}
+.calandar label input#date {
+    padding:0px;
+    display: inline;
+    height:30px;
+    position: relative;
+    top: 3px;
+    font-size: 12px;
+}
+.calandar input[type="text"] {
+    display: block;
+    padding-top: 0px;
+    padding-left: 0;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0px;
+}
+.orderItemList h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Dosis-Medium";
+  color:#f54337;
+}
+.orderItemList h3 {
+  font-size: 21px;
+  font-family: "Dosis-Regular";
+}
+.orderItemList h5 {
+  font-size: 16px;
+  font-family: "Dosis-Regular";
+}
+.lookup .item-input-inset .item-input-wrapper input {
+    height: 48px;
+    width: 100%;
+}
+.lookup button{
+  /*min-width: 50.688px;*/
+  /*width: 20%;*/
+}
+.lookup .item.item-input-inset{
+  width: 50%;
+  border: 0px;
+}
+.apiError{
+  font-family: "Dosis-SemiBold";
+  color: #ed1c24;
+  font-size: 18px;
+  line-height: 18px;
+}
+.back-btn .bar-stable .button.button-clear{
+  color:white;
+  top: 32%;
+  position: relative;
+}
+.back-btn .bar-stable .button.button-clear i{
+  font-size: 28px;
+  text-align: center;
+  padding-left: 10px;
+}
+@media (min-width: 800px){
+  .bar-search{
+  width: 50%;
+  float: right;
+}
+}
+@media (max-width: 1600px) and (min-width: 1280px){
+  .header-order {
+     line-height: 38px;
+     font-size:28px;
+  }
+
+
+
+/* --------------------------------------------*/
+
+#print .item-avatar {
+    padding-left: 135px;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;   
+}
+#print .item-avatar img{
+    max-width: 85px;
+    max-height: 85px;
+}
+
+
+#print h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Dosis-Medium";
+    color: #f54337;
+}
+
+
+
+ #print h3 {
+  font-size: 21px;
+  font-family: "Dosis-Regular";
+}
+
+#print h3.quantity {
+    color: #000;
+    font-family: "Dosis-Medium";
+}
+
+#print h3.quantity span {
+    color: #000;
+    font-family: "Dosis-Regular";
+}
